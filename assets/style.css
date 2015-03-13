@@ -107,13 +107,13 @@ p.upper {
   text-transform: uppercase;
 }
 
-#pictures .item img{
+#pictures .item img {
   display: block;
   width: auto;
   height: 100%;
 }
 
-#pictures-sm .item img{
+#pictures-sm .item img {
   display: block;
   width: auto;
   height: 100%;

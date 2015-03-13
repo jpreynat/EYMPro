@@ -13,14 +13,13 @@ $(document).ready(function() {
   });
   
   $("#pictures-sm").owlCarousel({
-    margin: 10,
+    margin: 15,
     loop: true,
     center: true,
     autoWidth: true,
     autoplay: true,
     autoplayTimeout: 1500,
     autoplaySpeed: 1000,
-    autoplayHoverPause: true,
-    items: 4
+    items: 3
   });
 });
