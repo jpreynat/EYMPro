@@ -119,6 +119,10 @@ p.upper {
   height: 100%;
 }
 
+#pictures-sm .owl-stage-outer {
+  max-height: 200px;
+}
+
 .embed-responsive.embed-responsive-16by9 {
   margin-top: 20px;
 }
