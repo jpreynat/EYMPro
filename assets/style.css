@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background: #121212 url("img/unnamed-sm.jpg") no-repeat fixed top;
+  background: #121212 url("../img/unnamed-sm.jpg") no-repeat fixed top;
   background-size: 60%;
   font-family: 'Raleway';
   color: #f4f4f4;
@@ -75,6 +75,10 @@ div.square h2 {
   margin-bottom: 2rem;
 }
 
+div.square h1 {
+  margin-top: 10px;
+}
+
 div.button-wrapper {
   margin: 2rem auto;
 }
@@ -101,6 +105,22 @@ button.download {
 
 p.upper {
   text-transform: uppercase;
+}
+
+#pictures .item img{
+  display: block;
+  width: auto;
+  height: 100%;
+}
+
+#pictures-sm .item img{
+  display: block;
+  width: auto;
+  height: 100%;
+}
+
+.embed-responsive.embed-responsive-16by9 {
+  margin-top: 20px;
 }
 
 @media only screen and (max-width : 991px) {
