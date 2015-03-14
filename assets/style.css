@@ -67,6 +67,14 @@ div.square {
   font-weight: 100;
 }
 
+div.square.first {
+  margin-top: 0;
+}
+
+div.square.last {
+  margin-bottom: 0;
+}
+
 div.clip {
   opacity: 1;
 }
